@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data export and temporary test artifacts
+data/*.corrupted.*
+data/*.csv
+data/test_*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment and virtualenvs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.lock
