@@ -31,3 +31,8 @@ ENV/
 *.temp
 ~$*
 *.lock
+
+# Academic project reports (submitted via university portal)
+report/
+*.docx
+*.pdf

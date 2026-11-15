@@ -144,9 +144,6 @@ TypeRush/
 ├── data/
 │   ├── history.json           # Atomic persistent session records
 │   └── settings.json          # User preferences
-├── report/                    # Academic project report & documentation
-│   ├── RA2511026010332.pdf    # Verified 2-page academic report PDF
-│   └── TypeRush_Project_Report_APP.docx  # Full Word project report
 ├── screenshots/
 │   └── v2.1/                  # 10 official verification screenshots (1200x800)
 ├── tests/                     # 91 unit and regression tests
