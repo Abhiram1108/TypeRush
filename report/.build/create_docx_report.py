@@ -104,7 +104,8 @@ def generate_report():
         ("GUI library", "Tkinter (Standard Library: tk.Canvas, tk.Text, tk.Entry, ttk.Combobox, ttk.Style)"),
         ("Other modules", "json, time, math, sys, os, ctypes, dataclasses, typing, tkinter.messagebox, tkinter.filedialog"),
         ("IDE / Editor", "Visual Studio Code / Antigravity IDE / IDLE"),
-        ("Operating system", "Windows 11 / Windows 10 (64-bit Architecture)")
+        ("Operating system", "Windows 11 / Windows 10 (64-bit Architecture)"),
+        ("Source Code Repository", "https://github.com/Abhiram1108/TypeRush")
     ]
     for row_idx, tdata in enumerate(tools_data, start=1):
         for col_idx, val in enumerate(tdata):
@@ -268,11 +269,12 @@ def generate_report():
     # 12. Section 9: References
     doc.paragraphs[54].text = "Python Software Foundation, \"tkinter — Python interface to Tcl/Tk,\" Python 3.12 Documentation, 2024. https://docs.python.org/3/library/tkinter.html"
     doc.paragraphs[55].text = "SRM Institute of Science and Technology, \"21CSC203P Advanced Programming Practice Laboratory Manual & Guidelines,\" Department of Computational Intelligence, School of Computing, 2026."
+    doc.paragraphs[56].text = "TypeRush 2.1 Source Code & Public GitHub Repository: https://github.com/Abhiram1108/TypeRush"
 
     # 13. Appendix A: Source Code Header
     doc.paragraphs[58].text = "Complete, production-ready implementation of TypeRush 2.1 showing high-DPI scaling, application orchestration, typing engine, live keystroke evaluation, metrics calculation, and JSON persistence."
     doc.paragraphs[59].text = "# typerush_app.py"
-    doc.paragraphs[60].text = "# Team: Shivansh Bansal (RA2511026010332), Biswa Prakash Rout (RA2511026010339), Boddupalli Phani Venkata Sri Abhiram (RA2511026010355)"
+    doc.paragraphs[60].text = "# Team: Shivansh Bansal (RA2511026010332), Biswa Prakash Rout (RA2511026010339), Boddupalli Phani Venkata Sri Abhiram (RA2511026010355)\n# Repository: https://github.com/Abhiram1108/TypeRush"
 
     # Let's read main.py, ui/app.py, and ui/scoring.py and insert a clean, comprehensive code block
     core_code = '''"""
@@ -283,6 +285,7 @@ Team Members:
 1. Shivansh Bansal (RA2511026010332)
 2. Biswa Prakash Rout (RA2511026010339)
 3. Boddupalli Phani Venkata Sri Abhiram (RA2511026010355)
+Repository: https://github.com/Abhiram1108/TypeRush
 """
 
 import sys

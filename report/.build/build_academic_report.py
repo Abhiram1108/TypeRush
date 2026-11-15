@@ -697,7 +697,7 @@ def build_pdf_report():
         <div class="github-card">
             <div class="github-left">
                 <div class="github-label">Project Source Code & Repository (Verified & Publicly Accessible)</div>
-                <a class="github-url" href="https://github.com/TypeRush/TypeRush" target="_blank">https://github.com/TypeRush/TypeRush</a>
+                <a class="github-url" href="https://github.com/Abhiram1108/TypeRush" target="_blank">https://github.com/Abhiram1108/TypeRush</a>
             </div>
             <div class="github-badge">PUBLIC REPOSITORY</div>
         </div>
